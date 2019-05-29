@@ -1,0 +1,55 @@
+.app-title {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+  margin-top: 2%;
+}
+
+.app-search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.app-search-box-button {
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  width: 150px;
+  height: 30px;
+  font-weight: 500;
+  transition: all .3s ease;
+  background-color: #43a047;
+  color: #fff;
+}
+
+.app-search-box-button:hover {
+  background-color: #00701a;
+  cursor: pointer;
+}
+
+.app-search-box-button--disabled {
+  background-color: rgb(216, 216, 216);
+}
+
+.app-search-box-input {
+  height: 23px;
+  width: 250px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  transition: all .3s ease;
+}
+
+.app-todos-box ul li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  list-style-type: none;
+}
+
+.app-todos-box-delete-icon:after {
+  content: "\2297";
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 0px;
+}
